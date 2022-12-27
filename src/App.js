@@ -7,6 +7,8 @@ function App() {
   const plusCount = () => setCount(count + 1);
   const minusCount = () => setCount(count - 1);
 
+  console.log(count);
+
   return (
     <div className="App">
       <div>
